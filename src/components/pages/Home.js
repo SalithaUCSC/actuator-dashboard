@@ -1,12 +1,12 @@
 import React from 'react'
-import { AppHilights } from './AppHilights'
-import { Card } from './Card'
-import { cardData } from './CardData'
+import { AppStatusFigures } from '../widgets/AppStatusFigures'
+import { Card } from '../widgets/Card'
+import { cardData } from '../widgets/CardData'
 
 export const Home = () => {
     return (
         <div className="container">
-            <AppHilights/>
+            <AppStatusFigures/>
             <hr/>
             <div className="row">
                 {
