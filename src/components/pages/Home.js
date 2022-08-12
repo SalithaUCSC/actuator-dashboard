@@ -1,7 +1,7 @@
 import React from 'react'
 import { AppStatusFigures } from '../widgets/AppStatusFigures'
 import { Card } from '../widgets/Card'
-import { cardData } from '../widgets/CardData'
+import { cardData } from '../shared/CardData'
 
 export const Home = () => {
     return (
